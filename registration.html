@@ -28,71 +28,77 @@
             <h1 class="h1-registration">Registration Form</h1>
             <form action="./show_data.html" method="get">
                 <fieldset class="container1">
-                 
-                        <label class="label-controls" for="name">
-                            Player's First Name:
-                            <input class="input-controls" name="First-Name" type="text" id="name">
+                    <label class="label-controls" for="name">
+                        Player's First Name:
+                        <input class="input-controls" name="First-Name"
+                            type="text" id="name">
+                    </label>
+                    <label class="label-controls" for="2do-name">Last Name:
+                        <input class="input-controls" name="Last-Name"
+                            type="text" id="2do-name">
+                    </label>
+                    <label class="label-controls" for="adress">Street Address:
+                        <input class="input-controls" name="Address" type="text"
+                            id="adress">
+                    </label>
+                    <label class="label-controls" for="city">City:
+                        <input class="input-controls" name="City" type="text"
+                            id="city">
+                    </label>
+                    <label class="label-controls" for="zip">Zip Code:
+                        <input class="input-controls" name="Zip-Code"
+                            type="number" id="zip">
+                    </label>
+                    <label class="label-controls" for="birthday">Birth Date
+                        (dd/mm/yyyy):
+                        <input class="input-controls" name="Birth-Date"
+                            type="date" id="birthday">
+                    </label>
+                    <fieldset class="check-gender">
+                        Gender:
+                        <label class="gender-color" for="gender">
+                            Female
+                            <input name="Gender" type="radio" id="gender"
+                                value="Female">
                         </label>
-                        <label class="label-controls for="2do-name">Last Name:
-                            <input class="input-controls" name="Last-Name" type="text" id="2do-name">
+                        <label class="gender-color" for="gender2">
+                            Male
+                            <input name="Gender" type="radio" id="gender2"
+                                value="Male">
                         </label>
-                        <label class="label-controls" for="adress">Street Address:
-                            <input class="input-controls" name="Address" type="text" id="adress">
-                        </label>
-                        <label class="label-controls" for="city">City:
-                            <input class="input-controls" name="City" type="text" id="city">
-                        </label>
-                        <label class="label-controls" for="zip">Zip Code:
-                            <input class="input-controls" name="Zip-Code" type="number" id="zip">
-                        </label>
-                        <label class="label-controls" for="birthday">Birth Date (dd/mm/yyyy):
-                            <input class="input-controls" name="Birth-Date" type="date" id="birthday">
-                        </label>
-    
-                        <fieldset class="check-gender">
-                            Gender:
-                            <label class="gender-color" for="gender">
-                                Female
-                                <input name="Gender" type="radio" id="gender"
-                                    value="Female">
-                            </label>
-                            <label class="gender-color" for="gender2">
-                                Male
-                                <input name="Gender" type="radio" id="gender2"
-                                    value="Male">
-                            </label>
-                        </fieldset>
-                        <fieldset class="fieldset-gender">
-                            <label class="grade-school" for="grade">Grade: 
-                                <input class="input-school" type="checkbox" name="Grade" id="grade"
+                    </fieldset>
+                    <fieldset class="fieldset-gender">
+                        <label class="grade-school" for="grade">Grade:
+                            <input class="input-school" type="checkbox"
+                                name="Grade" id="grade"
                                 value="Pre-School">
-                                Pre-School
-                            </label>
-                            <label class="grade-color" for="grade1">
-                                <input name="Grade-study" type="radio" id="grade1"
-                                    value="1st">
-                                1st
-                            </label>
-                            <label class="grade-color" for="grade2">
-                                <input name="Grade-study" type="radio" id="grade2"
-                                    value="2st">
-                                2st
-                            </label>
-                            <label class="grade-color" for="grade3">
-                                <input name="Grade-study" type="radio" id="grade3"
-                                    value="3st">
-                                3st
-                            </label>
-                            <label class="grade-color" for="grade4">
-                                <input name="Grade-study" type="radio" id="grade4"
-                                    value="4st">
-                                4st
-                            </label>
-                            <label class="grade-color" for="grade5">
-                                <input name="Grade-study" type="radio" id="grade5"
-                                    value="5st">
-                                5st
-                            </label>
+                            Pre-School
+                        </label>
+                        <label class="grade-color" for="grade1">
+                            <input name="Grade-study" type="radio" id="grade1"
+                                value="1st">
+                            1st
+                        </label>
+                        <label class="grade-color" for="grade2">
+                            <input name="Grade-study" type="radio" id="grade2"
+                                value="2st">
+                            2st
+                        </label>
+                        <label class="grade-color" for="grade3">
+                            <input name="Grade-study" type="radio" id="grade3"
+                                value="3st">
+                            3st
+                        </label>
+                        <label class="grade-color" for="grade4">
+                            <input name="Grade-study" type="radio" id="grade4"
+                                value="4st">
+                            4st
+                        </label>
+                        <label class="grade-color" for="grade5">
+                            <input name="Grade-study" type="radio" id="grade5"
+                                value="5st">
+                            5st
+                        </label>
                     </fieldset>
                 </fieldset>
 
@@ -100,7 +106,8 @@
                 <fieldset class="closest-select">
                     <legend id="legend-closest">Closest School</legend>
                     <label for="select"></label>
-                    <select class="select-closest" multiple name="Closest-School" id="select">
+                    <select class="select-closest" multiple
+                        name="Closest-School" id="select">
                         <option value="Katzenmaie">AJ Katzenmaier</option>
                         <option value="Greenbay">Greenbay</option>
                         <option value="Howard">Howard A Yeager</option>
@@ -110,7 +117,8 @@
                     </select>
                 </fieldset>
                 <fieldset class="field-position">
-                    <h3 class="h3-position">What Positiom(s) do you normally play? (check all that
+                    <h3 class="h3-position">What Positiom(s) do you normally
+                        play? (check all that
                         apply)</h3>
                     <label for="positions">
                         <input type="checkbox" name="Position" id="positions"
